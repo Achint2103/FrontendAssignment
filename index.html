@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h2>Drag and Drop</h2>
+    </div>
+    <div class="container">
+      <div id="left-container" class="container-box">
+        <h3 class="heading">Available Items</h3>
+        <div
+          id="item1"
+          class="draggable-item"
+          draggable="true"
+          ondragstart="dragStart(event)"
+        >
+          Item 1
+        </div>
+        <div
+          id="item2"
+          class="draggable-item"
+          draggable="true"
+          ondragstart="dragStart(event)"
+        >
+          Item 2
+        </div>
+        <div
+          id="item3"
+          class="draggable-item"
+          draggable="true"
+          ondragstart="dragStart(event)"
+        >
+          Item 3
+        </div>
+      </div>
+      <div
+        id="right-container"
+        class="container-box"
+        ondrop="drop(event)"
+        ondragover="allowDrop(event)"
+      >
+        <h3 class="heading">Selected Items</h3>
+      </div>
+    </div>
+    <div class="text-center">
+      <button onclick="resetContainers()" class="button-20">Reset</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
