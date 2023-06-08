@@ -1,3 +1,4 @@
-# FrontendAssignment
+#FrontendAssignment
 
-![Screenshot (1)](https://github.com/Achint2103/FrontendAssignment/assets/87437738/a7b19e93-2ff0-4ccd-99bc-ba09eb4c6ee0)
+![Screenshot (2)](https://github.com/Achint2103/FrontendAssignment/assets/87437738/ca9719be-22c9-485d-9bf3-3a17a1535b4f)
+
